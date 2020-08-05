@@ -33,3 +33,22 @@ The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+## Deploying to Heroku
+
+### `heroku login`
+
+Login-in to heroku on your terminal. Assumes you already installed all the dependencies(cli, etc) and you are in the project root folder.
+
+### `heroku create`
+
+Create a heroku app. A url will be given to you and can be used to share with your friends or collegues.
+
+### `git push heroku master`
+
+Push you appplication to heroku and profit!
+
+### `heroku logs --tail`
+
+Check the logs on heroku in case something went wrong!.
+
